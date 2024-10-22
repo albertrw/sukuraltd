@@ -1060,3 +1060,28 @@ textarea.input-control{
   margin-bottom: 10px;
   line-height: 1.5;
 }
+.another-services .grid {
+  display: flex;
+  justify-content: center; /* Center cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+}
+
+.another-services .services-item {
+  flex: 0 0 300px; /* Set a fixed width for the cards */
+  margin: 15px; /* Space between cards */
+  background-color: #ffffff; /* Card background */
+  border: 1px solid #ddd; /* Card border */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: transform 0.3s; /* Hover effect */
+  text-align: center; /* Center text */
+}
+
+.another-services .services-item:hover {
+  transform: scale(1.05); /* Hover effect */
+}
+
+.another-services .img-box img {
+  width: 100%; /* Ensure the image fits within the card */
+  height: auto; /* Maintain aspect ratio */
+}
